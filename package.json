@@ -1,0 +1,22 @@
+{
+  "name": "metabase-notapi-wrapper",
+  "version": "1.0.0",
+  "description": "Minimal Node.js client wrapper for Metabase",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xFufly/metabase-notapi-wrapper.git"
+  },
+  "files": [
+    "src",
+    "config.example.json",
+    "README.MD"
+  ],
+  "keywords": [],
+  "author": "DIDELOT Tim",
+  "license": "MIT",
+  "type": "module"
+}
