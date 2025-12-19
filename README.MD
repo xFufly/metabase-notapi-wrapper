@@ -6,7 +6,7 @@ You are a Data Analyst and only have access to Metabase to query company data. Y
 
 ## Installation
 ```bash
-npm install metabase-notapi-wrapper
+npm install https://github.com/xFufly/metabase-notapi-wrapper.git
 ```
 
 ## Usage
@@ -35,11 +35,7 @@ const run = async () => {
 run();
 ```
 
-Notes
-
-- The wrapper sends a POST to `/api/dataset` with `type: "native"`.
-- The database identifier is currently hardcoded to `2` in the code; adjust it in `src/metabase.js` if your target database differs.
-- Use your own credentials and comply with your organization’s access and security policies.
+Notes : Use your own credentials and comply with your organization’s access and security policies.
 
 ## Author
 [DIDELOT Tim](https://timdidelot.fr) · contact@timdidelot.fr
