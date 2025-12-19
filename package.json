@@ -2,7 +2,7 @@
   "name": "metabase-notapi-wrapper",
   "version": "1.0.0",
   "description": "Minimal Node.js client wrapper for Metabase",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "node example/test.js"
   },
