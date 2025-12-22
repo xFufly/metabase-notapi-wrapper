@@ -4,7 +4,8 @@
   "description": "Minimal Node.js client wrapper for Metabase",
   "main": "src/index.js",
   "scripts": {
-    "test": "node example/test.js"
+    "test": "node example/test.js",
+    "teststruct": "node example/getstructure.js"
   },
   "repository": {
     "type": "git",

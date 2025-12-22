@@ -23,12 +23,12 @@ npm install https://github.com/xFufly/metabase-notapi-wrapper.git
 Example (ESM):
 
 ```js
-import executeQuery from 'metabase-notapi-wrapper/src/metabase.js';
+import metabase from 'metabase-notapi-wrapper/src/metabase.js';
 
 const sql = 'SELECT 1';
 
 const run = async () => {
-  const result = await executeQuery(sql);
+  const result = await metabase.executeQuery(sql);
   console.log(result); // JSON response from /api/dataset
 };
 
