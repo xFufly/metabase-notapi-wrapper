@@ -1,2 +1,2 @@
-import executeQuery from "./metabase.js";
-export default executeQuery;
+import metabase from "./metabase.js";
+export default metabase;

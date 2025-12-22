@@ -1,4 +1,9 @@
-import config from "../config.json" with { type: "json" };
+import path from 'path';
+const configPath = path.join(process.cwd(), 'config.json');
+
+const { default: config } = await import(`file://${configPath}`, {
+  with: { type: "json" }
+});
 
 const queryUrl = config["dashboard-url"] + "/api/dataset";
 
