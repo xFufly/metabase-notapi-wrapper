@@ -48,8 +48,6 @@ export async function executeQuery(query) {
  */
 export async function getDBStructure(dbid) {
     const structUrl = config["dashboard-url"] + "/api/database/" + dbid + "/metadata";
-    console.log(structUrl);
-
     try {
         const options = {
             method: 'GET',
