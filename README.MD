@@ -6,7 +6,7 @@ You are a Data Analyst and only have access to Metabase to query company data. Y
 
 ## Installation
 ```bash
-npm install https://github.com/xFufly/metabase-notapi-wrapper.git
+npm install metabase-notapi-wrapper
 ```
 
 ## Usage
